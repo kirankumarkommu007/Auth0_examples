@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Auth0-Quickstart
+    
+okta:
+  oauth2:
+    issuer: https://dev-w7xbszr7dfzzla0z.us.auth0.com/
+    client-id: uIUqQkWQBbwuFwPMGfPV6b4cvNGCjCjZ
+    client-secret: KvpnOnmFv1dn_Y32gHzg9XTpTx4Yc8cwrLRcrDh7hgP7RHxxPYTLN4l0RHBnEAzG
+    audience: https://example.com/api
+
+server:
+  port: 3001
